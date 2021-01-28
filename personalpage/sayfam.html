@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: 'Courier New', Courier, monospace;
+        }
+        div{
+            width: 100%;
+            height: 300px;
+            text-align: center;
+            color: rgba(5, 5, 5, 0.849);
+        }
+        #bilgehan{
+            font-family: 'Times New Roman', Times, serif;
+            background: url("21-9.jpg");
+            background-size: 100% 300px;
+
+        }
+        .wpage{
+            font-size: 17px;
+            text-shadow: green;
+            background-color: greenyellow;
+        }
+        .bi{
+            font-weight: bold;
+            width: 100%;
+            float: left;
+        }
+        .foto1{
+            padding-top: 10px;
+            width: 33.33%;
+            float: left;
+            font-weight: bold;
+            color: orangered;
+            
+            
+            
+        }
+        .foto1:nth-child(1){
+            background: url("data1.jpeg") no-repeat;
+            background-size: 100% 300px;
+        }
+        .foto1:nth-child(2){
+            background: url("gamedg.jpg") no-repeat;
+            background-size: 100% 300px;
+        }
+        
+        .foto1:nth-child(3){
+            background: url("codeph2.jpeg") no-repeat;
+            background-size: 100% 300px;
+   
+        }
+
+        #Hakkımda{
+            clear: both;
+            background-color: indianred;
+            height: 520px;
+            color: white;
+        }
+        #Hakkımda img{
+            border: 5px dashed white ;
+            margin-top: 10px;
+        }
+        #Hakkımda p{
+            text-transform: capitalize;
+            font-size: 17px;
+            text-decoration: underline;
+            font-weight: bold;
+        }
+        @media screen and (max-width: 992px ){
+            .foto1{
+                width: 100%;
+            }
+            #Hakkımda{
+                margin-top: 920px;
+            }
+            #Hakkımda img{
+                margin-top: 40px;
+            }
+        }
+        #foto1 div a{
+            color: red;
+            
+        }
+    </style>
+</head>
+<body>
+     
+    <div id="bilgehan">
+        <span class="wpage"> 
+            Software Developer and Junior ML Engineer 
+        </span>            
+    </div>
+
+    <div class="bi">
+        <div class="foto1">
+            <a href="https://github.com/bilgehandk/Kaggle_data">Python ve AI</a> 
+        </div>
+        <div class="foto1">
+            <a href="https://github.com/bilgehandk/pong-game"> Game Development</a>
+        </div>
+        <div class="foto1">
+            <a href="https://github.com/bilgehandk/Name-Surname-App">Wep Development></a>
+            
+        </div>
+    </div>
+
+    <div id="Hakkımda">
+        <img src="ambem.jpg" alt="">
+        <p>
+            <a href="https://www.linkedin.com/in/bilgehan-demirkaya-32210b193/">Bilgehan Demirkaya</a>
+        </p>
+    </div>
+
+</body>
+</html>
